@@ -1,6 +1,6 @@
 ﻿# Geaux.SharedKernal
 
-Foundational domain-driven building blocks for modern .NET applications.  
+Foundational domain-driven building blocks for modern .NET applications.
 Provides CQRS primitives, domain events, entity base classes, value objects, repository abstractions, audit trail, and soft delete support.
 
 ## ✨ Features
