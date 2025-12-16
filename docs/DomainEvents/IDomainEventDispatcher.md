@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDomainEventDispatcher
 uid: geaux.sharedkernal.domainevents.idomaineventdispatcher
 ---
@@ -12,3 +12,6 @@ public interface IDomainEventDispatcher
 {
     Task DispatchAndClearEvents(IEnumerable<IHasDomainEvents> entitiesWithEvents);
 }
+```
+
+Implementations can use MediatR or any other mechanism to publish and then clear the domain events captured on aggregates.

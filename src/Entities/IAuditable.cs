@@ -6,6 +6,9 @@ namespace Geaux.SharedKernal.Entities;
 
 using System;
 
+/// <summary>
+/// Provides audit metadata for entity creation and modification timestamps.
+/// </summary>
 public interface IAuditable
 {
     /// <summary>UTC timestamp when the entity was created.</summary>
