@@ -1,0 +1,38 @@
+- name: Overview
+  href: index.md
+- name: CQRS
+  items:
+    - name: ICommand
+      href: CQRS/ICommand.md
+    - name: ICommandHandler
+      href: CQRS/ICommandHandler.md
+    - name: IQuery
+      href: CQRS/IQuery.md
+    - name: IQueryHandler
+      href: CQRS/IQueryHandler.md
+- name: Domain Events
+  items:
+    - name: DomainEventBase
+      href: DomainEvents/DomainEventBase.md
+    - name: HasDomainEventsBase
+      href: DomainEvents/HasDomainEventsBase.md
+    - name: IDomainEventDispatcher
+      href: DomainEvents/IDomainEventDispatcher.md
+    - name: IHasDomainEvents
+      href: DomainEvents/IHasDomainEvents.md
+    - name: MediatRDomainEventDispatcher
+      href: DomainEvents/MediatRDomainEventDispatcher.md
+- name: Entities
+  items:
+    - name: EntityBase
+      href: Entities/EntityBase.md
+    - name: IAggregateRoot
+      href: Entities/IAggregateRoot.md
+    - name: IAuditable
+      href: Entities/IAuditable.md
+    - name: ISoftDelete
+      href: Entities/ISoftDelete.md
+    - name: IEntityBase
+      href: Entities/IEntityBase.md
+    - name: ValueObject
+      href: Entities/ValueObject.md

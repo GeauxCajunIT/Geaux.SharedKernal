@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Build/" />
+  <Folder Name="/docs/">
+    <File Path="docs/index.md" />
+    <File Path="docs/toc.yml" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Geaux.SharedKernal.csproj" />
+  </Folder>
+</Solution>
