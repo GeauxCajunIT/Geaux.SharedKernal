@@ -39,5 +39,3 @@ public class Order : EntityBase<Guid>, IAggregateRoot, IAuditable, ISoftDelete
 Geaux.Specification — Specification pattern support
 
 Geaux.Specification.EntityFrameworkCore — EF Core integration
-
-
