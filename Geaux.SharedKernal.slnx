@@ -7,4 +7,7 @@
   <Folder Name="/src/">
     <Project Path="src/Geaux.SharedKernal.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="Geaux.SharedKernal.Tests/Geaux.SharedKernal.Tests.csproj" Id="8cd2f319-3a8e-4f3d-b6c7-585721790c29" />
+  </Folder>
 </Solution>

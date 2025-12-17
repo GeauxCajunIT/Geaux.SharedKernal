@@ -33,7 +33,16 @@
 			* Updated EntityBase to implement IEntityBase&lt;TId&gt; with audit trail
 			* Documentation improvements and DocFX stubs for new features
 		</PackageReleaseNotes>
+
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 	<ItemGroup>
 		<!-- Core CQRS dependency -->
